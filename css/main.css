@@ -5,3 +5,22 @@
     background-color: aquamarine;
     margin: auto;
 }
+
+#mid_wrap {
+    width: 50%;
+    margin: auto;
+}
+
+#mid_wrap_left {
+    width: 30%;
+    height: 100px;
+    border: 1px solid yellow;
+    float: left;
+}
+
+#mid_wrap_right {
+    width: 70%;
+    height: 100px;
+    border: 1px solid yellowgreen;
+    float: right;
+}
