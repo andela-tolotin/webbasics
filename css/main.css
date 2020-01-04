@@ -1,0 +1,14 @@
+#topnav {
+    width: 50%;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #topnav {
+        width: 70%;
+        background-color: rosybrown;
+    }
+}
