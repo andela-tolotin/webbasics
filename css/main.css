@@ -5,10 +5,3 @@
     background-color: aquamarine;
     margin: auto;
 }
-
-@media (min-width: 320px) and (max-width: 480px) {
-    #topnav {
-        width: 70%;
-        background-color: rosybrown;
-    }
-}
