@@ -6,26 +6,36 @@
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web Development</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <div id="main">
         <div id="topnav" class="row">
-
+            <div id="topnav-wrapper">
+                <div id="login_section">
+                    <div id="company_logo">
+                        <img alt="company logo" src="">
+                    </div>
+                    <div id="login_register">
+                        <form>
+                            <input type="text" id="phone" placeholder="Mobile Number">
+                            <input type="password" id="password" placeholder="Password">
+                            <button type="submit" id="submit">Log In</button>
+                            <div id="action_button">
+                                <a href="#" id="register">Register</a>
+                                <a href="#" id="register">
+                                    <i class="fa fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    <nav id="nav"></nav>
+                </div>
+            </div>
         </div>
-
-        <div id="mid_wrap" class="row">
-            <div id="mid_wrap_left"></div>
-            <div id="mid_wrap_right"></div>
-        </div>
-
-        <div id="bottom_wrap" class="row bg-red">
-
-        </div>
-        <footer> &copy; 2019</footer>
     </div>
-
 </body>
 
 </html>
