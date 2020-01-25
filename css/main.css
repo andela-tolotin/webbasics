@@ -11,7 +11,7 @@ html {
 }
 
 .row {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     clear: both;
 }
 
@@ -174,8 +174,6 @@ button#submit {
 #nav ul li {
     justify-content: center;
     display: flex;
-    width: 100px;
-    height: 50px;
     align-items: center;
 }
 
@@ -184,29 +182,130 @@ button#submit {
     font-size: 14px;
     align-self: center;
     color: white;
-}
-
-.active {
-    background: white;
-    color: red;
+    width: 100px;
+    height: 50px;
+    text-align: center;
 }
 
 .active a {
+    background: white;
     color: red !important;
-}
-
-.active:hover {
-    background: #e41727;
-    color: white
 }
 
 .active a:hover {
     color: white !important;
+    background: red;
+}
+
+#nav ul li a:hover {
+    background: red;
 }
 
 #company_logo img {
     width: 65%;
     height: auto;
+}
+
+#reg-phase {
+    background: #1a1f25;
+    width: 100%;
+    height: 300px;
+}
+
+#reg-phase-wrapper {
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+#h2-white-header {
+    color: white;
+}
+
+#reg-phase-left {
+    width: 25%;
+}
+
+#reg-phase-left ul {
+    padding: 0;
+    list-style: none;
+}
+
+#reg-phase-left ul li {
+    border-top: 1px dotted white;
+    padding: 10px 0 10px 0;
+}
+
+#reg-phase-left ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#reg-phase-left ul li a span {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#reg-phase-left ul li a span i {
+    color: #0c9536;
+}
+
+#reg-phase-middle {
+    width: 40%;
+    padding: 20px;
+}
+
+#reg-phase-middle img {
+    width: 100%;
+    display: block;
+}
+
+#reg-phase-right {
+    width: 35%;
+    background: #1B1E25;
+}
+
+#reg-phase-right h4 {
+    color: white;
+}
+
+#discount {
+    border-left: 4px solid #0c9536;
+    padding: 5px;
+    color: #33EA6A;
+    font-size: 12px;
+}
+
+#reg-form {
+    width: 100%;
+    height: auto;
+}
+
+#reg-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#reg-form form button {
+    padding: 10px;
+    width: 208px;
+    cursor: pointer;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #0D9737;
+    color: white;
+    font-size: 12px;
+}
+
+#reg-form form input[type="text"] {
+    height: 30px;
+    width: 200px;
+    color: gray;
 }
 
 @media (min-width: 320px) and (max-width:480px) {
